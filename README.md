@@ -62,8 +62,8 @@ Python3 required to run.
 Download and run the script.
 
 ```sh
-$ wget --no-check-certificate --content-disposition https://github.com/MatteoFasulo/FINF/blob/main/MatteoFasulo/main.py
-$ wget --no-check-certificate --content-disposition https://github.com/MatteoFasulo/FINF/blob/main/MatteoFasulo/backend.py
+$ wget --no-check-certificate --content-disposition https://github.com/MatteoFasulo/CDC-FINF/tree/main/code/main.py
+$ wget --no-check-certificate --content-disposition https://github.com/MatteoFasulo/CDC-FINF/tree/main/code/backend.py
 
 $ python3 main.py
 ```
