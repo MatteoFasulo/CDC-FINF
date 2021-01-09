@@ -392,5 +392,20 @@ def geographic_graph(regional):
     m.save("data" + os.sep + "%s_italy_%s.html" %(str(my_date),obs))
     webbrowser.open_new_tab("data" + os.sep + "%s_italy_%s.html" %(str(my_date),obs))
 
+
 def show_credits():
+    there_is = os.path.isfile("data" + os.sep + "CdC_MarkDown.html")
+    if not there_is:
+        connection = True
+        while connection:
+            try:
+                download_file(
+                    "https://raw.githubusercontent.com/MatteoFasulo/CDC-FINF/main/documentation/CdC_MarkDown.html",
+                    "CdC_MarkDown.html", "data")
+                connection = False
+            except urllib.error.URLError:
+                print("[i] No connection with Host... retry in 5 seconds")
+                connection = True
+                time.sleep(5)
+
     webbrowser.open_new_tab("data" + os.sep + "CdC_MarkDown.html")
