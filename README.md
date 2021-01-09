@@ -24,6 +24,8 @@ Libraries used in the project.
 | [Plotly] | contains functions that can create entire figures at once, and is referred to as Plotly Express or PX. |
 | [Folium] | makes it easy to visualize data that’s been manipulated in Python on an interactive map. |
 | [Web Browser] | provides a high-level interface to allow displaying Web-based documents to users. |
+| [Datetime] | the datetime module supplies classes for manipulating dates and times. |
+| [Branca Elements] | a generic class for creating Elements... |
 
 
 # Dependencies
@@ -82,3 +84,5 @@ Apache License 2.0
    [Plotly]: <https://plotly.com/python/plotly-express/>
    [Folium]: <https://python-visualization.github.io/folium/>
    [Web Browser]: <https://docs.python.org/3/library/webbrowser.html>
+   [Datetime]: <https://docs.python.org/3/library/datetime.html>
+   [Branca Elements]: <https://python-visualization.github.io/branca/element.html>
