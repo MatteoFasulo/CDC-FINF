@@ -2,7 +2,7 @@
 
 Summary
 
-  - Jupyter Notebook Python3 Project.
+  - Python3 Project.
   - Commented in every line of code with short description.
 
 # Features
