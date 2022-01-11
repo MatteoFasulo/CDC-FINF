@@ -1,4 +1,4 @@
-# Corsari di Corsa Project
+# Project of fundamentals of Computer Science
 
 Summary
 
